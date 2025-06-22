@@ -6,7 +6,7 @@ function SetUsername(username){
 
 function createUser(username, email, password){
     SetUsername.call(this, username)
-   
+    // to call the object of another class
     this.email = email
     this.password = password
 }
